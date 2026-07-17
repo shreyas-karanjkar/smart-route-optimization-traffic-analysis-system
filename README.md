@@ -1,211 +1,188 @@
 # 🚗 Smart Route Optimization & Traffic Analysis System
 
-![Dashboard](assets/screenshots/dashboard.jpg)
+```{=html}
+<p align="center">
+```
+`<img src="assets/github-banner.png" alt="Smart Route Optimization Banner" width="100%">`{=html}
+```{=html}
+</p>
+```
+```{=html}
+<p align="center">
+```
+![React](https://img.shields.io/badge/React-18-61DAFB?logo=react)
+![Node.js](https://img.shields.io/badge/Node.js-Express-339933?logo=node.js)
+![Express](https://img.shields.io/badge/Express.js-Backend-000000?logo=express)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?logo=javascript)
+![Google
+Maps](https://img.shields.io/badge/Google_Maps-Directions_API-4285F4?logo=googlemaps)
+![Leaflet](https://img.shields.io/badge/Leaflet-Maps-199900?logo=leaflet)
+![Axios](https://img.shields.io/badge/Axios-HTTP-5A29E4)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
-An intelligent **Decision Support System (DSS)** built using **React.js**, **Node.js**, **Express.js**, and the **Google Maps Directions API** to analyze multiple travel routes and recommend the optimal route based on user-defined optimization priorities.
+```{=html}
+</p>
+```
+```{=html}
+<p align="center">
+```
+An intelligent `<b>`{=html}Decision Support System (DSS)`</b>`{=html}
+that analyzes multiple travel routes using the Google Maps Directions
+API and recommends the optimal route based on distance, travel time,
+traffic conditions, and weighted optimization.
+```{=html}
+</p>
+```
 
-Unlike traditional navigation systems that simply display routes, this application performs **multi-criteria route analysis**, evaluates traffic conditions, computes weighted optimization scores, and provides explainable recommendations to support smarter travel decisions.
+------------------------------------------------------------------------
 
----
+# 📖 Overview
 
-# ✨ Key Features
+Smart Route Optimization & Traffic Analysis System is a full-stack web
+application that helps users compare multiple travel routes and
+transportation modes before starting a journey.
 
-* 🌍 Real-time route analysis using Google Maps Directions API
-* 🚗 Compare multiple transportation modes
+Unlike traditional navigation systems that simply display routes, this
+application evaluates available routes using a weighted decision
+algorithm and recommends the most suitable route according to the
+selected optimization priority.
 
-  * Car
-  * Bus
-  * Motorbike
-  * Walking
-* 📊 Multi-criteria route optimization
+------------------------------------------------------------------------
 
-  * Fastest Route
-  * Least Traffic
-  * Shortest Distance
-* 📈 Weighted scoring algorithm for intelligent route ranking
-* 🚦 Traffic delay estimation
-* ✅ Route reliability assessment
-* 💡 Explainable Decision Support System (DSS)
-* 🗺️ Interactive route visualization
-* 🌙 Modern responsive UI with Dark/Light theme
-* ⚡ RESTful backend using Express.js
+# 🏗 System Architecture
 
----
+```{=html}
+<p align="center">
+```
+`<img src="assets/architecture-diagram.png" alt="Architecture Diagram" width="100%">`{=html}
+```{=html}
+</p>
+```
 
-# 🧠 System Workflow
+------------------------------------------------------------------------
 
-1. User enters the source and destination.
-2. The backend retrieves multiple routes using the Google Maps Directions API.
-3. Route metrics such as distance, travel time, and traffic information are extracted.
-4. A weighted optimization algorithm evaluates every available route.
-5. Each route is assigned a reliability score.
-6. Routes are ranked according to the selected optimization priority.
-7. The system recommends the best route and provides an explanation for the recommendation.
+# ✨ Features
 
----
+-   🌍 Real-time route analysis using Google Maps Directions API
+-   🚗 Compare Car, Bus, Motorbike and Walking routes
+-   📊 Fastest, Least Traffic and Shortest Distance optimization
+-   🧠 Weighted Decision Support System
+-   📈 Route ranking and reliability score
+-   🗺 Interactive map visualization
+-   🌙 Dark / Light mode interface
+-   ⚡ REST API powered backend
 
-# 🛠️ Technology Stack
+------------------------------------------------------------------------
 
-## Frontend
+# 🛠 Technology Stack
 
-* React.js
-* JavaScript (ES6+)
-* Vite
-* HTML5
-* CSS3
-* Axios
-* Leaflet
+  Technology                   Purpose
+  ---------------------------- ----------------------
+  React.js                     Frontend
+  JavaScript (ES6+)            Programming Language
+  Node.js                      Backend Runtime
+  Express.js                   REST API
+  Google Maps Directions API   Route Analysis
+  Leaflet                      Interactive Maps
+  Axios                        API Communication
+  HTML5 / CSS3                 UI
 
-## Backend
-
-* Node.js
-* Express.js
-* REST API
-
-## APIs
-
-* Google Maps Directions API
-
----
-
-# 📸 Application Screenshots
-
-## 🏠 Smart Route Finder Dashboard
-
-Interactive dashboard with map visualization, travel mode selection, optimization priorities, and route analysis.
-
-![Dashboard](assets/screenshots/dashboard.jpg)
-
----
-
-## 💡 Decision Support & Route Recommendation
-
-Displays weighted route analysis, optimization scores, congestion analysis, and explainable route recommendations.
-
-![Decision Support](assets/screenshots/decision-support.jpg)
-
----
-
-## ⚙️ Optimization Priorities
-
-Users can optimize routes based on different travel objectives.
-
-* Fastest Route
-* Least Traffic
-* Shortest Distance
-
-![Optimization Priority](assets/screenshots/optimization-priority.jpg)
-
----
-
-## 🚗 Multi-Mode Transportation
-
-Supports comparison across different transportation modes.
-
-* Car
-* Bus
-* Motorbike
-* Walking
-
-![Travel Modes](assets/screenshots/travel-modes.jpg)
-
----
-
-## 📊 Route Comparison Dashboard
-
-Compare every available route using:
-
-* Distance
-* Estimated Time
-* Traffic Delay
-* Reliability
-* Optimization Score
-
-![Route Comparison](assets/screenshots/route-comparison.jpg)
-
----
+------------------------------------------------------------------------
 
 # 📂 Project Structure
 
-```text
+``` text
 smart-route-optimization-traffic-analysis-system
 │
-├── assets/
-│   └── screenshots/
-│
-├── backend/
-│   ├── server.js
-│   ├── package.json
-│   └── .env.example
-│
-├── frontend/
-│   ├── src/
-│   ├── public/
-│   └── package.json
-│
+├── assets
+│   ├── github-banner.png
+│   ├── architecture-diagram.png
+│   └── screenshots
+├── backend
+├── frontend
 └── README.md
 ```
 
----
+------------------------------------------------------------------------
 
-# 🚀 Installation
+# ⚙ Installation
 
-## Clone Repository
-
-```bash
+``` bash
 git clone https://github.com/shreyas-karanjkar/smart-route-optimization-traffic-analysis-system.git
-```
+cd smart-route-optimization-traffic-analysis-system
 
-## Backend
-
-```bash
 cd backend
 npm install
 node server.js
-```
 
-## Frontend
-
-```bash
-cd frontend
+cd ../frontend
 npm install
 npm run dev
 ```
 
----
+Create `backend/.env`
 
-# 🔑 Environment Variables
-
-Create a `.env` file inside the **backend** directory.
-
-```env
+``` env
 PORT=5000
 GOOGLE_MAPS_API_KEY=YOUR_GOOGLE_MAPS_API_KEY
 ```
 
----
+------------------------------------------------------------------------
 
-# 🔮 Future Enhancements
+# 📸 Application Demo
 
-* AI-powered adaptive route recommendation
-* Historical traffic analytics
-* Multi-stop route optimization
-* User authentication
-* Personalized travel preferences
-* Saved routes and travel history
-* Live weather integration
-* Machine Learning based travel prediction
+Rename your screenshots exactly as:
 
----
+``` text
+assets/screenshots/
+├── dashboard.jpg
+├── decision-support.jpg
+├── optimization-priority.jpg
+├── travel-modes.jpg
+└── route-comparison.jpg
+```
+
+## Dashboard
+
+![](assets/screenshots/dashboard.jpg)
+
+## Decision Support
+
+![](assets/screenshots/decision-support.jpg)
+
+## Optimization Priority
+
+![](assets/screenshots/optimization-priority.jpg)
+
+## Travel Modes
+
+![](assets/screenshots/travel-modes.jpg)
+
+## Route Comparison
+
+![](assets/screenshots/route-comparison.jpg)
+
+------------------------------------------------------------------------
+
+# 🚀 Future Improvements
+
+-   AI-based route recommendation
+-   Historical traffic analytics
+-   Weather-aware route planning
+-   User authentication
+-   Saved routes
+-   Multi-stop optimization
+
+------------------------------------------------------------------------
 
 # 👨‍💻 Author
 
 **Shreyas Karanjkar**
 
-M.Tech Computer Science & Engineering (Full Stack Development)
+M.Tech (Computer Science & Engineering)
 
 VIT Vellore
 
----
+------------------------------------------------------------------------
 
-⭐ If you found this project interesting, feel free to star the repository.
+⭐ If you found this project useful, consider giving it a star.
