@@ -1,6 +1,6 @@
 # 🚗 Smart Route Optimization & Traffic Analysis System
 
-![Dashboard](assets/screenshots/dashboard.png)
+![Dashboard](assets/screenshots/dashboard.jpg)
 
 An intelligent **Decision Support System (DSS)** built using **React.js**, **Node.js**, **Express.js**, and the **Google Maps Directions API** to analyze multiple travel routes and recommend the optimal route based on user-defined optimization priorities.
 
@@ -74,7 +74,7 @@ Unlike traditional navigation systems that simply display routes, this applicati
 
 Interactive dashboard with map visualization, travel mode selection, optimization priorities, and route analysis.
 
-![Dashboard](assets/screenshots/dashboard.png)
+![Dashboard](assets/screenshots/dashboard.jpg)
 
 ---
 
@@ -82,7 +82,7 @@ Interactive dashboard with map visualization, travel mode selection, optimizatio
 
 Displays weighted route analysis, optimization scores, congestion analysis, and explainable route recommendations.
 
-![Decision Support](assets/screenshots/decision-support.png)
+![Decision Support](assets/screenshots/decision-support.jpg)
 
 ---
 
@@ -94,7 +94,7 @@ Users can optimize routes based on different travel objectives.
 * Least Traffic
 * Shortest Distance
 
-![Optimization Priority](assets/screenshots/optimization-priority.png)
+![Optimization Priority](assets/screenshots/optimization-priority.jpg)
 
 ---
 
@@ -107,7 +107,7 @@ Supports comparison across different transportation modes.
 * Motorbike
 * Walking
 
-![Travel Modes](assets/screenshots/travel-modes.png)
+![Travel Modes](assets/screenshots/travel-modes.jpg)
 
 ---
 
@@ -121,7 +121,7 @@ Compare every available route using:
 * Reliability
 * Optimization Score
 
-![Route Comparison](assets/screenshots/route-comparison.png)
+![Route Comparison](assets/screenshots/route-comparison.jpg)
 
 ---
 
