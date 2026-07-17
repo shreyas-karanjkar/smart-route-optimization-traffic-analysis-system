@@ -2,7 +2,7 @@
 
 <p align="center">
 
-<img src="assets/github-banner.png" alt="Smart Route Optimization Banner" width="100%">`
+<img src="assets/github-banner.png" alt="Smart Route Optimization Banner" width="100%">
 
 </p>
 
