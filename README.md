@@ -1,15 +1,15 @@
 # 🚗 Smart Route Optimization & Traffic Analysis System
 
-```{=html}
+{=html}
 <p align="center">
-```
-`<img src="assets/github-banner.png" alt="Smart Route Optimization Banner" width="100%">`{=html}
-```{=html}
+
+<img src="assets/github-banner.png" alt="Smart Route Optimization Banner" width="100%">`{=html}
+{=html}
 </p>
-```
-```{=html}
+
+{=html}
 <p align="center">
-```
+
 ![React](https://img.shields.io/badge/React-18-61DAFB?logo=react)
 ![Node.js](https://img.shields.io/badge/Node.js-Express-339933?logo=node.js)
 ![Express](https://img.shields.io/badge/Express.js-Backend-000000?logo=express)
@@ -20,19 +20,19 @@ Maps](https://img.shields.io/badge/Google_Maps-Directions_API-4285F4?logo=google
 ![Axios](https://img.shields.io/badge/Axios-HTTP-5A29E4)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
-```{=html}
+{=html}
 </p>
-```
-```{=html}
+
+{=html}
 <p align="center">
-```
-An intelligent `<b>`{=html}Decision Support System (DSS)`</b>`{=html}
+
+An intelligent <b>{=html}Decision Support System (DSS)</b>{=html}
 that analyzes multiple travel routes using the Google Maps Directions
 API and recommends the optimal route based on distance, travel time,
 traffic conditions, and weighted optimization.
-```{=html}
+{=html}
 </p>
-```
+
 
 ------------------------------------------------------------------------
 
@@ -51,13 +51,13 @@ selected optimization priority.
 
 # 🏗 System Architecture
 
-```{=html}
+{=html}
 <p align="center">
-```
-`<img src="assets/architecture-diagram.png" alt="Architecture Diagram" width="100%">`{=html}
-```{=html}
+
+<img src="assets/architecture-diagram.png" alt="Architecture Diagram" width="100%">{=html}
+{=html}
 </p>
-```
+
 
 ------------------------------------------------------------------------
 
