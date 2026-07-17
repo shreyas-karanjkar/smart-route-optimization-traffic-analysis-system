@@ -75,16 +75,16 @@ selected optimization priority.
 
 # 🛠 Technology Stack
 
-  Technology                   Purpose
-  ---------------------------- ----------------------
-  React.js                     Frontend
-  JavaScript (ES6+)            Programming Language
-  Node.js                      Backend Runtime
-  Express.js                   REST API
-  Google Maps Directions API   Route Analysis
-  Leaflet                      Interactive Maps
-  Axios                        API Communication
-  HTML5 / CSS3                 UI
+| Technology | Purpose |
+|------------|---------|
+| ⚛️ React.js | Frontend User Interface |
+| 🟢 Node.js | Backend Runtime Environment |
+| 🚀 Express.js | REST API Development |
+| 📜 JavaScript (ES6+) | Application Logic |
+| 🗺 Google Maps Directions API | Route Generation & Traffic Analysis |
+| 🍃 Leaflet | Interactive Map Visualization |
+| 🔗 Axios | HTTP Client for API Communication |
+| 🎨 HTML5 & CSS3 | Responsive UI Design |
 
 ------------------------------------------------------------------------
 
